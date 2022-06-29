@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Courier+Prime&display=swap');
+nav {
+    font-family: 'Bebas Neue', cursive;
+    min-height: 80px;
+}
+.bg-senai {
+    background: #F9003D;
+}
+
+.img-fluid {
+    max-width: 150px;
+    height: auto;
+}
+
+li {
+    margin: 15px;
+}
+
+
+@media (min-width: 768px) {
+    hr{
+        width: 46%;
+    }
+
+    .min-h3-460 {
+        min-height: 460px !important;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    hr{
+        width: 100%;
+    }
+
+    .min-h3-460 {
+        min-height: 350px !important;
+    }
+
+    .position-absolute {
+        width: 100%;
+        margin-top: 20px;
+        position: unset !important;
+    }
+}
+
+.banner-home {
+    background-image: url(imagem-fundo-banner.jpg);
+    min-height: 768px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.borda-senai {
+    background-color: #a058ff; 
+    border: 1px solid #080324;
+    min-width: 80px;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+    text-transform: uppercase;
+    color: white;
+    font-size: 80px;
+}
+
+.nav-link {
+    font-size: 20px;
+}
+
+.banner-home .row {
+    height: 768px;
+}
+
+hr {
+    border: 1px solid #ffaf00;
+    opacity: 1;
+}
+
+h2 {
+    font-family: 'Courier Prime', monospace;
+    color: #F9003D;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.banner-home img {
+    margin-bottom: 56px;
+}
+
+body {
+    background-color: #080224;
+}
+
+h3 {
+    font-family: 'Bebas Neue', cursive;
+    color: #F9003D;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.div-padding {
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: justify;
+}
+
+h4 {
+    color: #FFAF00;
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+h5 {
+    color: white;
+    font-family: 'Courier Prime', monospace;
+    font-size: 30px;
+    margin-top: 75px;
+}
+
+.sobre-projetos {
+    max-width: 100%;
+    height: auto;
+    margin-right: 10px;
+}
+
+.linha {
+    font-size: 19px;
+    color: white;
+}
+
+.secao-locais {
+    color: white;
+    background-image: url(imagem-fundo-info.jpg);
+    min-height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.secao-locais .row {
+    min-height: 330px;
+}
+
+.box-main {
+    width: 250px;
+}
+
+.box-local{
+    border: 2px #a058ff solid;
+    height: 90px;
+    color: #a058ff;
+}
+
+.order-last {
+        font-size: 20px;
+        font-family: 'Courier Prime', monospace;
+}
+
+.text-center {
+    margin-top: 30px;
+}
+
+.endereco-now {
+    color: white;
+    background-image: url(imagem-fundo-ranking.jpg);
+    min-height: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.endereco-now .row {
+    min-height: 330px;
+}
+
+.borda-endereco {
+    background-color: black; 
+    border: 1px solid #a058ff;
+
+}
+
+.text-orange {
+    color: #FFAF00;
+}
+
+.font-endereco {
+    font-family: 'Bebas Neue', cursive;
+    color: #FFAF00;
+    font-size: 50px;
+}
+
+.texto-endereco {
+    font-family: 'Courier Prime', monospace;
+    color: #a058ff;
+    font-size: 20px;
+}
+
+.position-absolute {
+    top: 0;
+    right: 26px;
+}
+
+footer {
+    background-color: #F9003D;
+}
+
+.texto-footer {
+    color: white;
+    font-size: 19px;
+}
+
+.form-label {
+    font-size: 20px;
+    color: white;
+}
+
+.texto-contate-nos {
+    color: white;
+    font-size: 22px;
+}
+
+.contate-nos {
+    color: white;
+    font-size: 80px;
+}
+
+.min-vh-75 {
+    min-height: 75vh !important;
+}
+
+.min-h-460 {
+    min-height: 460px !important;
+}
+
+.formulario a:hover {
+    color: #a058ff;
+}
